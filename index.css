@@ -242,6 +242,12 @@ b {
     flex-direction: column;
     justify-content: center;
     margin: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: solid;
+    border-color: #3E343D;
+    padding-bottom: 4%;
+    display: flex;
 }
 
 
@@ -354,12 +360,12 @@ b {
 #animation p {
     text-align: justify;
     color: #F7D0F4;
-    padding-left: 26vw;
-    padding-right: 26vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 #animation .sectionwrapper {
-    padding: 3vw;
+    padding: 0vw;
     display: flex;
     flex-wrap: wrap;
 
@@ -376,11 +382,16 @@ b {
     text-align: center;
 }
 
-/*
-#animation .column img {
-    width: 80%;
+.animation_container {
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: solid;
+    border-color: #C6A8C5;
+    padding-bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-*/
 
 #animation .column_content {
     height: 10%;
@@ -419,7 +430,8 @@ b {
 }
 
 #ux p {
-    color: floralwhite;
+    text-align: justify;
+    color: #F7D0F4;
     padding-left: 10vw;
     padding-right: 10vw;
 }
