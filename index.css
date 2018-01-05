@@ -44,8 +44,6 @@ p {
 }
 
 p::first-letter {
-/*    font-size: 2em;*/
-/*    color: #3E343D;*/
     color: #C6A8C5;
     font-size: 200%;
 }
@@ -268,11 +266,12 @@ b {
 .video_billeder_container img {
     height: auto;
     width: 50%;
-    padding: 5px;
+    padding: 10px;
     justify-content: center;
     border-style: double;
 }
 
+/*
 
 .video_tekst {
     height: auto;
@@ -280,12 +279,17 @@ b {
     flex-basis: 500px;
     padding: 10px;
 }
+*/
 
 .video_container {
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: solid;
+    border-color: #3E343D;
+    padding-bottom: 4%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 10px;
 }
 
 #video h2{
@@ -403,15 +407,21 @@ b {
 }
 
 .ux_container {
-    margin: 4%;
-/*
-    margin-left: 10vw;
-    margin-right: 10vw;
-*/
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: solid;
+    border-color: #C6A8C5;
+    padding-bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 #ux p {
     color: floralwhite;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 /*https://www.w3schools.com/cssref/css3_pr_filter.asp*/
@@ -419,7 +429,7 @@ b {
     width: 20vw;
     height: 20vw;
     align-self: center;
-    filter: grayscale(30%);
+    filter: grayscale(0%);
     margin: 2%
 
 }
@@ -552,6 +562,7 @@ b {
     transform: none;
 }
 
+/******************* FOOTER ********************/
 
 footer {
     font-family: 'Open Sans', sans-serif;
@@ -560,4 +571,8 @@ footer {
     text-align: center;
 
     padding: 10px;
+}
+
+footer p {
+    font-style: none;
 }
