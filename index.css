@@ -38,6 +38,13 @@ p {
     text-align:justify;
     padding-left: 4vw;
     padding-right: 4vw;
+
+}
+
+p::first-letter {
+/*    font-size: 2em;*/
+    color: #3E343D;
+    font-size: 200%;
 }
 
 a {
@@ -51,10 +58,12 @@ a {
 
 }
 
+/*
 b {
     font-size: 2em;
     color: #3E343D;
 }
+*/
 
 
 /****************** HEADER ************************/
@@ -68,7 +77,7 @@ b {
 #cv {
     padding-top: 0.5vw;
     padding-bottom: 5vw;
-    text-align: center;
+    text-align: justify;
 
 }
 
@@ -164,7 +173,7 @@ b {
 /********************* STILART HTML ***************************/
 
 #html {
-    padding: 10px;
+    padding: 20px;
     background-color: #FCE6FB;
     padding-top: 1vw;
     display: flex;
@@ -193,7 +202,7 @@ b {
     height: auto;
     width: 70%;
     padding: 5px;
-    justify-content: center;
+    justify-content: space-between;
     border-style: double;
 }
 
@@ -331,6 +340,8 @@ b {
 
 
 /****************** BURGER MENU *******************/
+
+/*https://stackoverflow.com/questions/45514582/hamburger-menu-fixed-on-bottom-right-bootstrap*/
 
 #menu a {
     text-decoration: none;
