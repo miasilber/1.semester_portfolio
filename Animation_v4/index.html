@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link rel="stylesheet" href="baggrund.css">
+</head>
+
+<body>
+    <div id="scene">
+
+        <div id="mus_container">
+            <div id="mus_sprite"></div>
+        </div>
+        <div id="titel" class="titel_start_pos">
+
+<!--            <button class="btn_start">START</button>-->
+        </div>
+
+
+        <div id="baggrund"></div>
+        <div id="sol"></div>
+        <div id="nut_container"></div>
+        <div id="mellemgrund"></div>
+
+        <div id="ugle_container">
+            <div id="ugle_sprite"></div>
+        </div>
+
+        <div id="forgrund"></div>
+
+    </div>
+
+    <div class="btn_container">
+
+        <button id="btn_startposition">1. Flyt elementer til startpositioner</button>
+        <button id="btn_mus_ind">2. Mor-Mus ind</button>
+        <button id="btn_mus_kigger">3. Mor-Mus kigger på ugle</button>
+        <button id="btn_ugle_taler">4. Ugle taler</button>
+        <button id="btn_mus_kaster_noed_paa_ugle">5. Mor-Mus kaster nød på ugle</button>
+        <button id="btn_mus_disko">6. Mor-Mus tar på diskodasko</button>
+        <button id="btn_reset">Nulstil alt</button>
+    </div>
+
+    <audio id="baggrundslyd" src="Relaxing-forest-sounds.mp3"></audio>
+    <audio id="ugle_snak" src="Ugle.m4a"></audio>
+    <audio id="mus_snak" src="Mus_sur.m4a"></audio>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="Mus.js"></script>
+
+</body>
+
+</html>
