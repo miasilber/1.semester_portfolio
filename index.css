@@ -33,13 +33,22 @@ h4 {
     color: darkgrey;
 }
 
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    color: #3E343D;
+    text-align:center;
+}
+
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.9em;
     color: #3E343D;
-    text-align:justify;
+    text-align: justify;
+/*
     padding-left: 4vw;
     padding-right: 4vw;
+*/
 
 }
 
@@ -182,7 +191,6 @@ b {
 }
 
 #programmer .sectionwrapper {
-    padding: 3vw;
     display: flex;
     flex-wrap: wrap;
 
@@ -190,7 +198,7 @@ b {
 
 #programmer .column {
     flex-grow: 1;
-    flex-basis: 600px;
+    flex-basis: 100px;
     border-color: #805F7D;
     width: 0px;
     padding: 10px;
