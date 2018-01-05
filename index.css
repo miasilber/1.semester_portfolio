@@ -176,42 +176,45 @@ b {
 
 /**************** DOKUMENTATION ***************/
 
-#dokumentation {
+#programmer {
     background-color: white;
     padding-top: 1vw;
     padding-bottom: 5vw;
     text-align: center;
 }
 
-#dokumentation .sectionwrapper {
+#programmer .sectionwrapper {
     padding: 3vw;
     display: flex;
     flex-wrap: wrap;
 
 }
 
-#dokumentation .column {
+#programmer .column {
     flex-grow: 1;
     flex-basis: 600px;
-    border-style: double;
     border-color: #805F7D;
     width: 0px;
     padding: 10px;
-    margin: 1px;
+    margin: 10px;
     text-align: center;
 }
 
-#dokumentation .column img {
-    width: 15%;
+#programmer .column img {
+    width: 5%;
 }
 
-#dokumentation .column_content {
+#programmer .column_content {
     height: 100%;
     text-align: center;
 }
 
-#semester img {
+#programmer img {
     border-radius: 5%;
+}
+
+#programmer p {
+    text-align: center;
 }
 
 
@@ -400,8 +403,11 @@ b {
 }
 
 .ux_container {
+    margin: 4%;
+/*
     margin-left: 10vw;
     margin-right: 10vw;
+*/
 }
 
 #ux p {
@@ -414,6 +420,7 @@ b {
     height: 20vw;
     align-self: center;
     filter: grayscale(30%);
+    margin: 2%
 
 }
 
@@ -424,6 +431,7 @@ b {
 /*https://stackoverflow.com/questions/45514582/hamburger-menu-fixed-on-bottom-right-bootstrap*/
 
 #menu a {
+    flex-wrap: wrap;
     text-decoration: none;
     color: black;
     display: block;
@@ -465,7 +473,6 @@ b {
 
     opacity: 0;
     z-index: 2;
-    -webkit-touch-callout: none;
 }
 
 #menuToggle span {
@@ -545,10 +552,6 @@ b {
     transform: none;
 }
 
-.testdok {
-    width: 100%;
-    text-align: center;
-}
 
 footer {
     font-family: 'Open Sans', sans-serif;
