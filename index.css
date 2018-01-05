@@ -46,7 +46,7 @@ p {
 p::first-letter {
 /*    font-size: 2em;*/
 /*    color: #3E343D;*/
-    color: #FCE6FB;
+    color: #C6A8C5;
     font-size: 200%;
 }
 
@@ -174,6 +174,45 @@ b {
     filter: opacity(80%)
 }
 
+/**************** DOKUMENTATION ***************/
+
+#dokumentation {
+    background-color: white;
+    padding-top: 1vw;
+    padding-bottom: 5vw;
+    text-align: center;
+}
+
+#dokumentation .sectionwrapper {
+    padding: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#dokumentation .column {
+    flex-grow: 1;
+    flex-basis: 600px;
+    border-style: double;
+    border-color: #805F7D;
+    width: 0px;
+    padding: 10px;
+    margin: 1px;
+    text-align: center;
+}
+
+#dokumentation .column img {
+    width: 15%;
+}
+
+#dokumentation .column_content {
+    height: 100%;
+    text-align: center;
+}
+
+#semester img {
+    border-radius: 5%;
+}
 
 
 
@@ -216,7 +255,7 @@ b {
 /******************** VIDEO *******************/
 #video {
     padding: 10px;
-    background-color: white;
+    background-color: #FCE6FB;
     padding-top: 1vw;
     display: flex;
     flex-wrap: wrap;
@@ -225,7 +264,7 @@ b {
 }
 .video_billeder_container img {
     height: auto;
-    width: 70%;
+    width: 50%;
     padding: 5px;
     justify-content: center;
     border-style: double;
@@ -357,7 +396,24 @@ b {
     padding-top: 1vw;
     padding-bottom: 5vw;
     text-align: center;
-    color: #E9ECED;
+
+}
+
+.ux_container {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+#ux p {
+    color: floralwhite;
+}
+
+/*https://www.w3schools.com/cssref/css3_pr_filter.asp*/
+#ux img {
+    width: 20vw;
+    height: 20vw;
+    align-self: center;
+    filter: grayscale(30%);
 
 }
 
