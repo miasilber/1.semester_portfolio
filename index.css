@@ -6,7 +6,7 @@ body {
 h1 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 3.5em;
+    font-size: 4em;
     color: #805F7D;
 }
 
@@ -14,12 +14,14 @@ h2 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: #805F7D;
+    font-size: 2em;
 }
 
 h3 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: darkgrey;
+    font-size: 1.5;
 
 
 }
@@ -43,7 +45,8 @@ p {
 
 p::first-letter {
 /*    font-size: 2em;*/
-    color: #3E343D;
+/*    color: #3E343D;*/
+    color: #FCE6FB;
     font-size: 200%;
 }
 
@@ -75,10 +78,8 @@ b {
 /****************** CV ****************************/
 
 #cv {
-    padding-top: 0.5vw;
-    padding-bottom: 5vw;
     text-align: justify;
-
+    margin: 10vw;
 }
 
 
@@ -110,6 +111,12 @@ b {
     border-bottom-style: solid;
     border-color: black;
 }
+
+/*
+.mySlides {
+    display:none;
+}
+*/
 
 
 /****************** 1. Semester **************************/
@@ -216,6 +223,14 @@ b {
     padding-bottom: 5vw;
     text-align: center;
 }
+.video_billeder_container img {
+    height: auto;
+    width: 70%;
+    padding: 5px;
+    justify-content: center;
+    border-style: double;
+}
+
 
 .video_tekst {
     height: auto;
@@ -231,13 +246,14 @@ b {
     margin: 10px;
 }
 
+#video h2{
+    text-align: center;
+    margin: 5vw;
+}
 
-.video_billeder_container img {
-    height: auto;
-    width: 70%;
-    padding: 5px;
-    justify-content: center;
-    border-style: double;
+#video p {
+    padding-left: 14%;
+    padding-right: 14%;
 }
 
 /******************* HOME KNAP *****************/
@@ -290,14 +306,10 @@ b {
 }
 
 #animation p {
-    text-align: center;
+    text-align: justify;
     color: #F7D0F4;
-    padding-left: 10vw;
-    padding-right: 10vw;
-}
-
-#animation b {
-    color: #805F7D;
+    padding-left: 26vw;
+    padding-right: 26vw;
 }
 
 #animation .sectionwrapper {
@@ -308,13 +320,13 @@ b {
 }
 
 #animation .column {
-    flex-grow: 4;
+    flex-grow: 2;
     flex-basis: 200px;
     border-style: double;
     border-color: #805F7D;
     width: 0px;
     padding: 10px;
-    margin: 1px;
+    margin: 10px;
     text-align: center;
 }
 
@@ -335,6 +347,18 @@ b {
 
 #animation .bottom {
     align-self: flex-start;
+}
+
+/***************** UX ************************/
+
+#ux {
+    width: 100vw;
+    background-color: #3E343D;
+    padding-top: 1vw;
+    padding-bottom: 5vw;
+    text-align: center;
+    color: #E9ECED;
+
 }
 
 
