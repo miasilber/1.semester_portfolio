@@ -12,3 +12,23 @@ function carousel() {
     x[myIndex-1].style.display = "block";
     setTimeout(carousel, 2000); // Change image every 2 seconds
 }
+
+$ (window).on("load",sidenErLoadet);
+
+function sidenErLoadet(){
+
+    $(".start_button").on("click",skovlyd);
+}
+
+function skovlyd(){
+
+    $(".start_button").off("click",ugle);
+    $(".start_button").on("click",ugle);
+}
+
+function ugle () {
+
+    $(".start_button").off("click",ugle);
+    $(".start_button").on("click",mus);
+
+}

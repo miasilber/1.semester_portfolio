@@ -414,6 +414,33 @@ b {
     align-self: flex-start;
 }
 
+/****************** LYD **********************/
+
+.start_button {
+
+    background-color: #F7D0F4;
+    border-radius: 4px;
+    width: 150px;
+    height: 75px;
+    cursor: pointer;
+
+    margin-left: calc(50vw - 75px);
+    margin-top:  calc(50vh - 37.5px);;
+
+
+    border: 4px solid #805F7D;
+    outline: 0;
+    font-size: 1.5em;
+
+}
+
+
+.start_button_aktiveret{
+    cursor: default;
+    border: 4px solid #C6A8C5;
+
+}
+
 /***************** UX ************************/
 
 #ux {
