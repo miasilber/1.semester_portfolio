@@ -6,22 +6,23 @@ body {
 h1 {
     text-align: center;
     font-family: 'Montserrat', Thin, sans-serif;
-    font-size: 4em;
+    font-size: 10vw;
     color: #805F7D;
+
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: #805F7D;
-    font-size: 2em;
+    font-size: 3vw;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: darkgrey;
-    font-size: 1.5;
+    font-size: 1.5vw;
 
 
 }
@@ -68,14 +69,6 @@ a {
 
 }
 
-/*
-b {
-    font-size: 2em;
-    color: #3E343D;
-}
-*/
-
-
 /****************** HEADER ************************/
 
 #header {
@@ -107,7 +100,7 @@ b {
     height: 20vw;
     background-color: transparent;
     border-radius: 30%;
-    flex-grow: 2;
+    flex-grow: 1;
     overflow: hidden;
 
 }
@@ -215,7 +208,7 @@ b {
 /********************* STILART HTML ***************************/
 
 #html {
-    padding: 20px;
+    padding: 10px;
     background-color: #FCE6FB;
     padding-top: 1vw;
     display: flex;
@@ -229,32 +222,32 @@ b {
     height: auto;
     flex-grow: 1;
     flex-basis: 500px;
-    padding: 30px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+
 }
 
 .stilart_container {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-style: solid;
+    border-color: #3E343D;
+    padding-bottom: 1vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
-    border-style: solid;
-    border-color: #3E343D;
-    padding-bottom: 4%;
-    display: flex;
 }
 
 
 .stilart_billeder_container img {
     height: auto;
-    width: 70%;
-    padding: 5px;
-    justify-content: space-between;
-    border-style: double;
+    width: 57.5vw;
+    padding: 0.2vw;
+    border-style: solid;
 }
 
 /******************** VIDEO *******************/
+
 #video {
     padding: 10px;
     background-color: #FCE6FB;
@@ -266,42 +259,31 @@ b {
 }
 .video_billeder_container img {
     height: auto;
-    width: 50%;
-    padding: 10px;
-    justify-content: center;
-    border-style: double;
+    width: 57.5vw;
+    padding: 0.2vw;
+    border-style: solid;
 }
 
-/*
 
 .video_tekst {
     height: auto;
     flex-grow: 1;
     flex-basis: 500px;
-    padding: 10px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+
 }
-*/
 
 .video_container {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 10vw;
+    margin-right: 10vw;
     border-style: solid;
     border-color: #3E343D;
-    padding-bottom: 4%;
+    padding-bottom: 1vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
 
-#video h2{
-    text-align: center;
-    margin: 5vw;
-}
-
-#video p {
-    padding-left: 14%;
-    padding-right: 14%;
-}
 
 /******************* HOME KNAP *****************/
 
@@ -347,8 +329,9 @@ b {
 
 #animation img {
     width: auto;
-    height: 25vw;
+    height: 32vw;
     padding: 20px;
+    margin-top: 5vw;
 
 }
 
@@ -367,13 +350,13 @@ b {
 }
 
 #animation .column {
-    flex-grow: 2;
+    flex-grow: 1;
     flex-basis: 200px;
-    border-style: double;
+    border-style: ridge;
     border-color: #805F7D;
-    width: 0px;
-    padding: 10px;
-    margin: 10px;
+    width: px;
+    padding: 40px;
+    margin: 40px;
     text-align: center;
 }
 
@@ -389,7 +372,7 @@ b {
 }
 
 #animation .column_content {
-    height: 10%;
+    height: 100%;
     text-align: center;
 }
 
@@ -398,35 +381,21 @@ b {
 }
 
 #animation .bottom {
-    align-self: flex-start;
+    align-self: flex-end;
 }
 
-/****************** LYD **********************/
-
-.start_button {
-
-    background-color: #F7D0F4;
-    border-radius: 4px;
-    width: 150px;
-    height: 75px;
-    cursor: pointer;
-
-    margin-left: calc(50vw - 75px);
-    margin-top:  calc(50vh - 37.5px);;
-
-
-    border: 4px solid #805F7D;
-    outline: 0;
-    font-size: 1.5em;
-
+#animation h2 {
+    margin-top: 7vw;
+    font-size: 4vw;
 }
 
-
-.start_button_aktiveret{
-    cursor: default;
-    border: 4px solid #C6A8C5;
-
+/*
+.privatsnak {
+    margin-top: 7vw;
+    font-size: 2vw
 }
+*/
+
 
 /***************** UX ************************/
 
@@ -588,7 +557,7 @@ b {
 
 #menu li {
     padding: 10px 0;
-    font-size: 22px;
+    font-size: 19px;
 }
 
 
