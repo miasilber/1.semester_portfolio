@@ -5,20 +5,20 @@ body {
 
 h1 {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', Thin, sans-serif;
     font-size: 4em;
     color: #805F7D;
 }
 
 h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: #805F7D;
     font-size: 2em;
 }
 
 h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: darkgrey;
     font-size: 1.5;
@@ -41,7 +41,7 @@ h5 {
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.9em;
     color: #3E343D;
     text-align: justify;
@@ -58,12 +58,12 @@ p::first-letter {
 }
 
 a {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     display: inline-block;
     vertical-align: middle;
     color: #3E343D;
-    font-weight: 700;
+    font-weight: 500;
     text-decoration: none;
 
 }
@@ -115,16 +115,7 @@ b {
     width: 20vw;
     height: 20vw;
     align-self: center;
-    border-bottom-style: solid;
-    border-color: black;
 }
-
-/*
-.mySlides {
-    display:none;
-}
-*/
-
 
 /****************** 1. Semester **************************/
 
@@ -145,12 +136,13 @@ b {
 #semester .column {
     flex-grow: 4;
     flex-basis: 200px;
-    border-style: double;
+    border-style: ridge;
     border-color: #805F7D;
     width: 0px;
     padding: 10px;
-    margin: 1px;
+    margin: 10px;
     text-align: center;
+    background-color: white;
 }
 
 #semester .column img {
@@ -159,10 +151,6 @@ b {
 
 #semester .column_content {
     height: 10%;
-/*
-    display: flex;
-    flex-wrap: wrap;
-*/
     text-align: center;
 }
 
@@ -176,7 +164,6 @@ b {
 }
 
 #semester img {
-/*    align-self: flex-start;*/
     border-radius: 5%;
     filter: opacity(80%)
 }
@@ -242,7 +229,7 @@ b {
     height: auto;
     flex-grow: 1;
     flex-basis: 500px;
-    padding: 10px;
+    padding: 30px;
 }
 
 .stilart_container {
@@ -611,15 +598,15 @@ b {
 
 /******************* FOOTER ********************/
 
-footer {
+#footer {
     font-family: 'Open Sans', sans-serif;
-    background-color:grey;
+    background-color: lightgrey;
     color: #e9eced;
     text-align: center;
 
-    padding: 10px;
+    padding: px;
 }
 
-footer p {
+#footer p {
     font-style: none;
 }
