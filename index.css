@@ -432,16 +432,15 @@ a {
     color: #F7D0F4;
     padding-left: 10vw;
     padding-right: 10vw;
-    padding-bottom: 5vw;
 }
 
 /*https://www.w3schools.com/cssref/css3_pr_filter.asp*/
 #ux img {
-    width: 20vw;
-    height: 20vw;
+    width: 30vw;
+    height: auto;
     align-self: center;
     filter: grayscale(0%);
-    margin-bottom: 10vw
+    margin-bottom: 7vw
 
 }
 
