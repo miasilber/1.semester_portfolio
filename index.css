@@ -246,6 +246,13 @@ a {
     border-style: solid;
 }
 
+#html img {
+    height: auto;
+    width: 57.5vw;
+    padding: 0.2vw;
+    text-align: center;
+}
+
 /******************** VIDEO *******************/
 
 #video {
@@ -440,10 +447,68 @@ a {
 }
 
 
+/******************  NY MENU  **********************/
+
+/* Dropdown Button */
+
+.dropbtn {
+    background-color: #FCE6FB;
+    color: #3E343D;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    text-align: left;
+}
+
+/* Dropdown button on hover & focus */
+
+.dropdown-content a:hover,
+.dropdown-content a:focus {
+    color: #3E343D;
+    background-color: #ffffff;
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FCE6FB;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #FCE6FB;
+    padding: 25px 25px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: #3E343D;
+    font-size: 16px;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
 
 /****************** BURGER MENU *******************/
 
-/*https://stackoverflow.com/questions/45514582/hamburger-menu-fixed-on-bottom-right-bootstrap*/
+/*
+https://stackoverflow.com/questions/45514582/hamburger-menu-fixed-on-bottom-right-bootstrap
 
 #menu a {
     flex-wrap: wrap;
@@ -566,6 +631,7 @@ a {
 #menuToggle input:checked ~ ul {
     transform: none;
 }
+*/
 
 /******************* FOOTER ********************/
 
