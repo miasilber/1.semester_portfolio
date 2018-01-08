@@ -362,7 +362,6 @@ a {
     flex-basis: 200px;
     border-style: ridge;
     border-color: #805F7D;
-    width: px;
     padding: 40px;
     margin: 40px;
     text-align: center;
@@ -640,10 +639,4 @@ https://stackoverflow.com/questions/45514582/hamburger-menu-fixed-on-bottom-righ
     background-color: lightgrey;
     color: #e9eced;
     text-align: center;
-
-    padding: px;
-}
-
-#footer p {
-    font-style: none;
 }
